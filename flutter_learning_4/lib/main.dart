@@ -21,8 +21,35 @@ class RandomWordState extends State<RandomWord> {
   //Gh0ysT: added a set to save favorited word pairs to
   final Set<WordPair> _saved = new Set<WordPair>();  
   //Gh0ysT: method to handle display of saved WordPairs
-  void _pushSaved() {
+  void _pushedSaved() {
     Navigator.of(context).push(
+      new MaterialPageRoute<void>(
+        builder: (BuildContext context) {
+          final Iterable<ListTile> tiles = _saved.map(
+            (WordPair pair){
+              return new ListTile(
+                title: new Text(
+                  pair.asPascalCase,
+                  style: _font,
+                ),
+              );
+            },
+          );
+          final List<Widget> divided = ListTile
+            .divideTiles(
+              context: context,
+              tiles: tiles,
+            )
+              .toList();
+
+          return new Scaffold(
+            appBar: new AppBar(
+              title: const Text('Saved Suggestions'),
+            ),
+            body: new ListView(children: divided),
+          );
+        },
+      ),
     );
   }
 
@@ -73,7 +100,7 @@ class RandomWordState extends State<RandomWord> {
       appBar: AppBar(
         title: Text("Word Pair Generator"),
         actions: <Widget>[
-          new IconButton(icon: const Ison(Icons.list), onpressed: _pushedSaved),
+          new IconButton(icon: const Icon(Icons.list), onPressed: _pushedSaved),
         ],
       ),
       body: _buildSuggestions(),
