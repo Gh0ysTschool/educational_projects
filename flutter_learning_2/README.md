@@ -1,8 +1,4 @@
 # flutter_learning_2
 
-A new Flutter project.
-
-## Getting Started
-
-For help getting started with Flutter, view our online
-[documentation](https://flutter.io/).
+simple application containing a text field populated with a randomly generated word pair from an imported external library
+stripped of default flutter project boilerplate
