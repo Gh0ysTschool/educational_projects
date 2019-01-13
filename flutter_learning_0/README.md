@@ -1,8 +1,3 @@
 # flutter_learning_0
 
-A new Flutter project.
-
-## Getting Started
-
-For help getting started with Flutter, view our online
-[documentation](https://flutter.io/).
+simple application containing a stateful button that tracks how many times it has been pressed
