@@ -1,8 +1,3 @@
 # flutter_learning_4
 
-A new Flutter project.
-
-## Getting Started
-
-For help getting started with Flutter, view our online
-[documentation](https://flutter.io/).
+application that contains a scrollable dynamically generated list populated with randomly generated word pairs by an imported external library. Each word pair is accompanied by an icon button that when pressed saves/removes the word to/from a favorites list. a secondary page route renders the favorites list.
