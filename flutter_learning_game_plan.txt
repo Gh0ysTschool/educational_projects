@@ -1,0 +1,48 @@
+https://flutter.io/docs/get-started/codelab
+[ ] flutter codelab WriteYourOwnApp step 1 basic flutter project
+[ ] flutter codelab WriteYourOwnApp step 2 using an external library
+[ ] flutter codelab WriteYourOwnApp step 3 adding a stateful widget 
+[ ] flutter codelab WriteYourOwnApp step 4 create an infinite scrolling listview
+(https://codelabs.developers.google.com/codelabs/first-flutter-app-pt2)
+[ ] flutter codelab WriteYourOwnAppPart2 step 3 add icons to the listview
+[ ] flutter codelab WriteYourOwnAppPart2 step 4 add interactivity
+[ ] flutter codelab WriteYourOwnAppPart2 step 5 navigate to a new screen
+[ ] flutter codelab WriteYourOwnAppPart2 step 6 change the UI using themes
+(https://flutter.io/docs/development/ui/layout)
+[ ] flutter codelab BuildingLayouts step 1 Diagram the Layout
+[ ] flutter codelab BuildingLayouts step 2 impliment title Row
+[ ] flutter codelab BuildingLayouts step 3 impliment button Row
+[ ] flutter codelab BuildingLayouts step 4 impliment text section
+[ ] flutter codelab BuildingLayouts step 5 impliment image section
+[ ] flutter codelab BuildingLayouts step 6 convert root container to a listview that supports app body scrolling
+(https://flutter.io/docs/development/ui/interactive)
+[ ] flutter codelab AddingInteractivity step 0 create a stateful widget
+[ ] flutter codelab AddingInteractivity step 1 create an object to handle the widgets state
+[ ] flutter codelab AddingInteractivity step 2 subclass State
+[ ] flutter codelab AddingInteractivity step 3 pluf into the widget tree
+[ ] flutter codelab AddingInteractivity step 4 study state management hierarchy
+[ ] flutter codelab AddingInteractivity step 5 familiarize self with prepackaged standard widgets and material components
+(https://flutter.io/docs/development/ui/assets-and-images)
+(https://flutter.io/docs/development/ui/navigation)
+(https://flutter.io/docs/development/ui/animations)
+(https://flutter.io/docs/development/ui/advanced/gestures)
+(https://flutter.io/docs/development/ui/widgets)
+(https://flutter.io/docs/development/data-and-backend/state-mgmt)
+(https://flutter.io/docs/development/data-and-backend/json)
+(https://flutter.io/docs/development/data-and-backend/firebase)
+(https://flutter.io/docs/development/accessibility-and-localization/internationalization)
+(https://flutter.io/docs/development/accessibility-and-localization/accessibility)
+(https://flutter.io/docs/development/platform-integration/platform-channels)
+(https://flutter.io/docs/development/packages-and-plugins/using-packages)
+(https://flutter.io/docs/development/packages-and-plugins/developing-packages)
+(https://flutter.io/docs/development/packages-and-plugins/background-processes)
+(https://pub.dartlang.org/flutter)
+(https://flutter.io/docs/testing/debugging)
+(https://flutter.io/docs/testing/build-modes)
+(https://flutter.io/docs/testing)
+(https://flutter.io/docs/testing/ui-performance)
+(https://flutter.io/docs/deployment/flavors)
+(https://flutter.io/docs/deployment/android)
+(https://flutter.io/docs/deployment/ios)
+(https://flutter.io/docs/deployment/fastlane-cd)
+(https://flutter.io/docs/cookbook)

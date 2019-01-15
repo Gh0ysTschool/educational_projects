@@ -5,7 +5,6 @@ import 'package:english_words/english_words.dart';
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -17,13 +16,10 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-//state that holds and generates rnadom WordPairs
 class RandomWordState extends State<RandomWord> {
   final _suggestions = <WordPair>[];
   final _font = const TextStyle(fontSize: 18.0);
-  //Gh0ysT: added a set to save favorited word pairs to
   final Set<WordPair> _saved = new Set<WordPair>();  
-  //Gh0ysT: method to handle display of saved WordPairs
   void _pushedSaved() {
     Navigator.of(context).push(
       new MaterialPageRoute<void>(
@@ -82,13 +78,9 @@ class RandomWordState extends State<RandomWord> {
   Widget _buildSuggestions(){
     return ListView.builder(
       padding: const EdgeInsets.all(16.0),
-      //Gh0ysT: added and ItemBuilder to be called when the ListView generates each item
       itemBuilder: (context, i){
-        //Gh0ysT:  every other call will simply generate a dividing line
         if (i.isOdd) return Divider();
-        //Gh0ysT: the index of the wordpair excluding the dividing lines
         final index = i ~/ 2;
-        //Gh0ysT:  generate another 10 wordpairs in the end of the list has been reached
         if (index >= _suggestions.length){
           _suggestions.addAll(generateWordPairs().take(10));
         }
@@ -102,7 +94,6 @@ class RandomWordState extends State<RandomWord> {
     return Scaffold(
       appBar: AppBar(
         title: Text("Word Pair Generator"),
-
         actions: <Widget>[
           new IconButton(icon: const Icon(Icons.list), onPressed: _pushedSaved),
         ],
@@ -111,7 +102,6 @@ class RandomWordState extends State<RandomWord> {
     ) ; 
   }
 }
-//container class for instantiating a state
 class RandomWord extends StatefulWidget {
   @override
   RandomWordState createState() => new RandomWordState();
